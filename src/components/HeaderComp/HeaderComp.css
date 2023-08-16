@@ -1,20 +1,26 @@
 .menu-header {
     color: rgb(109, 97, 97);
     font-weight: bold;
-    font-size:larger;
-    position:relative;
+    font-size: larger;
+    position: relative;
     text-align: center;
 }
+
 .menu-header::before {
-    content:' ';
-    background-color:#d14624;
-    position:absolute;
+    content: ' ';
+    background-color: #d14624;
+    position: absolute;
     width: 110px;
-    height:2px;
-    top:30px;
+    height: 2px;
+    top: 30px;
 }
+
 .menu-btn {
-   color:rgb(109, 97, 97)!important;
-   border: 1px solid #d14624!important;
-   background-color: transparent!important;
+    color: rgb(109, 97, 97) !important;
+    border: 1px solid #d14624 !important;
+    background-color: transparent !important;
+}
+
+.menu-btn:hover {
+    background-color: #d14624 !important;
 }
